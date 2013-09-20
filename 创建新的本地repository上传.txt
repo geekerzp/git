@@ -1,0 +1,8 @@
+touch README.md
+git init
+git add README.md
+# git add .       添加仓库所有的文件
+# git add -A      添加仓库所有的文件
+git commit -m "first commit"
+git remote add origin https://github.com/geekerzp/rails.git
+git push -u origin master

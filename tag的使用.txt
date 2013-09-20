@@ -1,0 +1,37 @@
+列出所有tag
+git tag
+
+如果只想查看某些tag的话，可以加限定
+git tag -l v1.*
+
+创建轻量级tag
+git tag v1.0
+
+带附加信息的tag
+git tag -a v1.0 -m "first version"
+
+GPG私钥签名的tag
+git tag -s v1.0 -m "first version"
+
+为以前的commit添加tag
+# 查看以前的commit
+git log --oneline
+# 添加tag
+git tag -a v1.1 8a5cbc2
+
+删除本地tag
+git tag -d v1.0
+删除远程服务器tag
+git push origin :refs/tags/v1.0
+
+用GPG私钥验证tag
+git tag -v v1.0
+
+共享tag，将tag上传到服务器
+git push origin --tags
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+git clone https://github.com/geekerzp/rails.git 
+git clone git@github:geekerzp/rails.git
+会下载到一个以rails命名的文件夹及源码
